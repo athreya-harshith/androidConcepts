@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="qr_des">Sample Qr Code</string>
+    <string name="sample_txt">Name : Harshith P Athreya\nUserId : xxxx99xxx-yyy\nStatus : In\n</string>
+</resources>
