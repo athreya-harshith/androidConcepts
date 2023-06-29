@@ -2,6 +2,8 @@ package com.example.gson;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.List;
+
 public class Employee {
 //if json key name and calss names dosent match use
     @SerializedName("first_name")
@@ -11,11 +13,16 @@ public class Employee {
 
     @SerializedName("address")
     private Address maddress;
-    public  Employee(String firstName,int age,String mail,Address address)
+
+    @SerializedName("family")
+    private List<FamilyMember>  mFamily;
+    public  Employee(String firstName,int age,String mail,Address address,List<FamilyMember> family)
     {
         this.firstName = firstName;
         this.age = age;
         this.mail = mail;
         maddress = address;
+
+        mFamily = family;
     }
 }

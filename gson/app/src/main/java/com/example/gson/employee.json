@@ -1,6 +1,16 @@
 {
   "age": 21,
   "first_name": "Athreya",
+  "family": [
+    {
+      "age": 18,
+      "role": "Brother"
+    },
+    {
+      "age": 25,
+      "role": "Cousin"
+    }
+  ],
   "address": {
     "city": "Bangalore",
     "country": "India"
