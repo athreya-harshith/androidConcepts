@@ -9,10 +9,13 @@ public class Employee {
     private  int age;
     private String mail;
 
-    public  Employee(String firstName,int age,String mail)
+    @SerializedName("address")
+    private Address maddress;
+    public  Employee(String firstName,int age,String mail,Address address)
     {
         this.firstName = firstName;
         this.age = age;
         this.mail = mail;
+        maddress = address;
     }
 }
